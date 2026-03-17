@@ -69,7 +69,7 @@ const Hero = () => {
           <div className="flex gap-12 pt-8 border-t border-[rgba(255,255,255,0.1)]
             max-[480px]:flex-col max-[480px]:gap-4 max-[768px]:gap-6">
             {[
-              { val: '500+', label: 'Active Members' },
+              { val: '100+', label: 'Active Members' },
               { val: '10+', label: 'Expert Trainers' },
               { val: '15+', label: 'Programs' },
             ].map((s) => (

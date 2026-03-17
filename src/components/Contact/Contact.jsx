@@ -160,7 +160,7 @@ const Contact = () => {
                       type="text"
                       id="name"
                       name="name"
-                      placeholder="John Doe"
+                      placeholder="Viraj Perera"
                       value={formData.name}
                       onChange={handleChange}
                       className={`w-full py-3.5 px-5 rounded-[10px]
@@ -188,7 +188,7 @@ const Contact = () => {
                       type="email"
                       id="email"
                       name="email"
-                      placeholder="john@example.com"
+                      placeholder="Viraj@gmail.com"
                       value={formData.email}
                       onChange={handleChange}
                       className={`w-full py-3.5 px-5 rounded-[10px]

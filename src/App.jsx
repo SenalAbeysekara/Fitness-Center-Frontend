@@ -6,6 +6,7 @@ import Features from './components/Features/Features';
 import Trainers from './components/Trainers/Trainers';
 import Membership from './components/Membership/Membership';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
     const [darkMode, setDarkMode] = useState(() => {
@@ -33,6 +34,7 @@ function App() {
                 <Membership />
                 <Contact />
             </main>
+            <Footer />
         </div>
     );
 }

@@ -1,1 +1,53 @@
-# Fitness-Center-Frontend
+# Fitness Sports Center Website
+  This website was created for a local fitness brand launching a new gym. The goal is to attract new members by presenting the gym’s services, trainers, membership plans, and providing a contact form for inquiries.
+
+## Tech Stack
+- React
+- Tailwind CSS
+- Framer Motion
+- React Icons
+
+## Setup Instructions
+ - git clone https://github.com/SenalAbeysekara/Fitness-Center-Frontend.git
+ - cd Fitness-Center-Frontend
+ - npm install
+ - npm run dev
+
+## Live Demo
+  Link - 
+
+## Figma Design
+  Link - 
+
+## Bonus Features Included
+- Dark mode
+- Animations
+- Advanced form handling
+
+## Features
+- Responsive modern landing page
+- Hero section
+- About section
+- Services / Features section
+- Trainers section
+- Membership plans section
+- Contact section with form validation
+- Success feedback after form submission
+- Dark mode toggle with localStorage persistence
+- Smooth animations using Framer Motion
+
+## Folder Structure
+```bash
+src/
+├── assets/
+├── components/
+│   ├── About/
+│   ├── Contact/
+│   ├── Features/
+│   ├── Footer/
+│   ├── Hero/
+│   ├── Membership/
+│   ├── Navbar/
+│   └── Trainers/
+├── App.jsx
+└── main.jsx

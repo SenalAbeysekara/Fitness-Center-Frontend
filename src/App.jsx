@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import Features from './components/Features/Features';
+import Trainers from './components/Trainers/Trainers';
 
 function App() {
     const [darkMode, setDarkMode] = useState(() => {
@@ -26,6 +27,7 @@ function App() {
                 <Hero />
                 <About />
                 <Features />
+                <Trainers />
             </main>
         </div>
     );

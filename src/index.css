@@ -13,7 +13,6 @@
   --font-family-outfit: 'Outfit', sans-serif;
 }
 
-/* ─── Base layer ─── */
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -35,5 +34,42 @@
     --color-gray-light: #c5c5bf;
   }
 
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  ::selection {
+    background: rgba(213, 163, 16, 0.3);
+    color: var(--color-cream);
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-black);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-gold);
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-gold-light);
+  }
 }
 
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

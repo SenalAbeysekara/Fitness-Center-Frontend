@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
@@ -19,6 +20,9 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+      <main className="flex-1">
+        <Hero />
+      </main>
     </div>
   );
 }

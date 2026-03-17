@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
+import Features from './components/Features/Features';
 
 function App() {
     const [darkMode, setDarkMode] = useState(() => {
@@ -24,6 +25,7 @@ function App() {
             <main className="flex-1">
                 <Hero />
                 <About />
+                <Features />
             </main>
         </div>
     );

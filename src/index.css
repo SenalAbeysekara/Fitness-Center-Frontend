@@ -13,6 +13,7 @@
   --font-family-outfit: 'Outfit', sans-serif;
 }
 
+/* ─── Base layer ─── */
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -68,6 +69,7 @@
   }
 }
 
+/* ─── Utility keyframes ─── */
 @keyframes spin {
   to {
     transform: rotate(360deg);

@@ -4,6 +4,7 @@ import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import Features from './components/Features/Features';
 import Trainers from './components/Trainers/Trainers';
+import Membership from './components/Membership/Membership';
 
 function App() {
     const [darkMode, setDarkMode] = useState(() => {
@@ -28,6 +29,7 @@ function App() {
                 <About />
                 <Features />
                 <Trainers />
+                <Membership />
             </main>
         </div>
     );

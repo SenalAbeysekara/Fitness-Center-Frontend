@@ -17,7 +17,7 @@
   Link - 
 
 ## Figma Design
-  Link - 
+  Link - https://www.figma.com/design/IGwTING0F5UV7iYODfWxJQ/Fitness-Sports-Center-Website?node-id=7-835&t=b4YtkIFabPpEY6RO-1
 
 ## Bonus Features Included
 - Dark mode

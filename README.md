@@ -1,30 +1,40 @@
-# Fitness Sports Center Website
-  This website was created for a local fitness brand launching a new gym. The goal is to attract new members by presenting the gym’s services, trainers, membership plans, and providing a contact form for inquiries.
+# 🔗 Fitness Sports Center Website
+  This website was created for a local fitness brand launching a new gym. The goal is to attract new members by presenting the gym’s services, trainers, membership plans, and providing a   contact form for inquiries.
 
-## Tech Stack
+# 🔗 Tech Stack
 - React
 - Tailwind CSS
 - Framer Motion
 - React Icons
 
-## Setup Instructions
- - git clone https://github.com/SenalAbeysekara/Fitness-Center-Frontend.git
- - cd Fitness-Center-Frontend
- - npm install
- - npm run dev
+# 🔗 Setup Instructions
 
-## Live Demo
-  Link - https://fitness-center-frontend-sepia.vercel.app/?_vercel_share=cFOBR9TNsxRwHoXthus1cfHIDM8838cs
+## Clone the Repository
 
-## Figma Design
-  Link - https://www.figma.com/design/IGwTING0F5UV7iYODfWxJQ/Fitness-Sports-Center-Website?node-id=7-835&t=b4YtkIFabPpEY6RO-1
+```bash
+git clone https://github.com/SenalAbeysekara/Fitness-Center-Frontend.git
+cd Fitness-Center-Frontend
+```
+## Install dependencies
+```bash
+npm install
+```
+## Start development server
+```bash
+npm run dev
+```
+# 🔗 Live Demo
+- Link - https://fitness-center-frontend-sepia.vercel.app/?_vercel_share=cFOBR9TNsxRwHoXthus1cfHIDM8838cs
 
-## Bonus Features Included
+# 🔗 Figma Design
+- Link - https://www.figma.com/design/IGwTING0F5UV7iYODfWxJQ/Fitness-Sports-Center-Website?node-id=7-835&t=b4YtkIFabPpEY6RO-1
+
+# 🔗 Bonus Features Included
 - Dark mode
 - Animations
 - Advanced form handling
 
-## Features
+# 🔗 Features
 - Responsive modern landing page
 - Hero section
 - About section
@@ -36,7 +46,7 @@
 - Dark mode toggle with localStorage persistence
 - Smooth animations using Framer Motion
 
-## Folder Structure
+# 🔗 Folder Structure
 ```bash
 src/
 ├── assets/

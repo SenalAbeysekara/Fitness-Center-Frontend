@@ -14,7 +14,7 @@
  - npm run dev
 
 ## Live Demo
-  Link - https://fitness-center-frontend-bn7l4ojb3.vercel.app/
+  Link - https://fitness-center-frontend-sepia.vercel.app/?_vercel_share=cFOBR9TNsxRwHoXthus1cfHIDM8838cs
 
 ## Figma Design
   Link - https://www.figma.com/design/IGwTING0F5UV7iYODfWxJQ/Fitness-Sports-Center-Website?node-id=7-835&t=b4YtkIFabPpEY6RO-1
